@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "gfu-ki-grundlagen"
+version = "0.1.0"
+description = ""
+authors = ["MaGeKo-Exxeta <matti.gerrit.korff@exxeta.com>"]
+readme = "README.md"
+packages = [{include = "gfu_ki_grundlagen"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+scikit-learn = "^1.3.2"
+pandas = "^2.1.3"
+jupyter = "^1.0.0"
+seaborn = "^0.13.0"
+missingno = "^0.5.2"
+folium = "^0.15.0"
+plotly = "^5.18.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
